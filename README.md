@@ -1,13 +1,32 @@
-# Sample Hardhat Project
+# Blockchain Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Technologies Used:
+- Next.js for web application
+- Hardhat for Ethereum network
 
-Try running some of the following tasks:
-
+### How to run:
+- run 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+npm install
+``` 
+in the root folder of the project to download dependencies
+- run
+```shell
 npx hardhat node
+```
+to run the hardhat network
+- run
+```shell
+npm run dev
+```
+to run the web app
+
+other commands:
+```shell
 npx hardhat run scripts/deploy.js
 ```
+
+### Contributors:
+- PES2UG21CS334 Nikhil Girish
+- PES2UG21CS379 Pragna Prasad
+- PES2UG21CS397 Prem Kumar S
